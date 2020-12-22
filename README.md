@@ -1,8 +1,7 @@
 # rl_trocarroupa
 Script to change clothes at work places
 
-This script was a request by some of our players to be able to change / remove their clothes at the work place. It's a script built for a portuguese community, 
-so it doesnt have a english translation. It needs the basic ESX (skin / skinchanger) and also uses mythic_notify for notifications.
+This script was a request by some of our players to be able to change / remove their clothes at the work place. It needs the basic ESX (skin / skinchanger) and also uses mythic_notify for notifications.
 
 
 
