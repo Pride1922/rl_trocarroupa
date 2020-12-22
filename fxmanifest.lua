@@ -6,18 +6,20 @@ author 'Pride1922'
 version '1.0.0'
 
 server_scripts {
-    'config.lua',
-    'server/server.lua',
+	'config.lua',
+	'server/server.lua',
 	'locales/pt.lua'
 }
 
 client_scripts {
-    'config.lua',
-    'client/client.lua',
+	'config.lua',
+    	'client/client.lua',
 	'locales/pt.lua'
 }
 
 dependencies {
-    'es_extended',
-    'mythic_notify'
+    	'es_extended',
+	'skinchanger',
+	'esx_skin',
+    	'mythic_notify'
 }
