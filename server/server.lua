@@ -2,6 +2,8 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
+
+--callback to get all the clothes that are saved
 ESX.RegisterServerCallback('rl_trocarroupa:getPlayerDressing', function(source, cb)
 	local xPlayer  = ESX.GetPlayerFromId(source)
 
@@ -18,6 +20,7 @@ ESX.RegisterServerCallback('rl_trocarroupa:getPlayerDressing', function(source, 
 	end)
 end)
 
+--callback to get the clothes that player wants to dress
 ESX.RegisterServerCallback('rl_trocarroupa:getPlayerOutfit', function(source, cb, num)
 	local xPlayer  = ESX.GetPlayerFromId(source)
 
@@ -27,7 +30,7 @@ ESX.RegisterServerCallback('rl_trocarroupa:getPlayerOutfit', function(source, cb
 	end)
 end)
 
-
+-- Event to delete clothes
 RegisterServerEvent('rl_trocarroupa:removeOutfit')
 AddEventHandler('rl_trocarroupa:removeOutfit', function(label)
 	local xPlayer = ESX.GetPlayerFromId(source)
@@ -39,3 +42,4 @@ AddEventHandler('rl_trocarroupa:removeOutfit', function(label)
 		store.set('dressing', dressing)
 	end)
 end)
+
