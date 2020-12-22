@@ -5,4 +5,5 @@ Locales['pt'] = {
   ['Menu_Title3'] = 'Remover Roupas', -- Remove Clothes 
   ['Change_Clothes'] = 'Trocar Roupa', -- Change Clothes
   ['Remove_Clothes'] = 'Remover Roupa', -- Remove Clothes
+  ['Deleted_Clothes'] = 'Roupa apagada', -- Removed Clothes
 }
